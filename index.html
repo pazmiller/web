@@ -1,0 +1,25 @@
+<html>   
+    <head>
+        <link rel="stylesheet" href="index.css">        
+    </head>
+    <body>
+        <div class="block">        
+        <div class="background">
+            <h2>Metric/Imperial Unit Converter</h2>
+            <input id ="input-value"
+            placeholder="value to convert"
+            oninput="lengthConverter(this.value),volumeConverter(this.value),massConverter(this.value)">   
+        </div>  
+    <div class="display-value">    
+        <span id="base-value"></span>
+        <h3>Length (Meter/Feet)</h3>
+        <span id ="length"></span>
+        <h3>Volume (Liters/Gallons)</h3>
+        <span id="volume"></span>
+        <h3>Mass (Kilograms/Pounds)</h3>
+        <span id="mass"></span>
+        <script src="index.js"></script>
+        </div>
+    </div>
+    </body>
+</html>
