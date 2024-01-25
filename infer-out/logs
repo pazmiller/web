@@ -1,0 +1,45 @@
+[3810][      debug] Loading models took 94.185ms
+[3811][      debug] Sqlite write daemon: starting up
+[3811][      debug] Sqlite write daemon: set up complete, waiting for connections
+[3810][environment] CWD = /home/vboxuser
+[3810][environment] No .inferconfig file found
+[3810][environment] Project root = /home/vboxuser
+[3810][environment] INFER_ARGS =   
+[3810][environment] command line arguments:   infer
+[3810][environment] Available memory at startup: 8459 MB
+[3810][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[3810][environment] Scheduler: file
+[3810][environment] Cores used: 7
+[3810][environment] Infer version v1.1.0
+[3810][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[3810][environment] 
+[3810][      debug] GC stats for capture:
+[3810][      debug]   minor_words: 50
+[3810][      debug]   promoted_words: 0
+[3810][      debug]   major_words: 0
+[3810][      debug]   minor_collections: 0
+[3810][      debug]   major_collections: 0
+[3810][      debug]   compactions: 0
+[3810][      debug]   top_heap_words: 760832
+[3810][      debug]   
+[3810][  user warn] Nothing to compile. Have you run `infer capture`? Try cleaning the build first.
+[3810][   progress] There was nothing to analyze.
+[3810][      debug] GC stats for report:
+[3810][      debug]   minor_words: 2039
+[3810][      debug]   promoted_words: 0
+[3810][      debug]   major_words: 0
+[3810][      debug]   minor_collections: 0
+[3810][      debug]   major_collections: 0
+[3810][      debug]   compactions: 0
+[3810][      debug]   top_heap_words: 760832
+[3810][      debug]   
+[3810][      debug] GC stats for main_process_full:
+[3810][      debug]   minor_words: 1.69028e+06
+[3810][      debug]   promoted_words: 175364
+[3810][      debug]   major_words: 701405
+[3810][      debug]   minor_collections: 4
+[3810][      debug]   major_collections: 2
+[3810][      debug]   compactions: 1
+[3810][      debug]   top_heap_words: 760832
+[3810][      debug]   
+[3811][      debug] Sqlite write daemon: terminating
